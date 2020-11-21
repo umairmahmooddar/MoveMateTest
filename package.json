@@ -1,0 +1,28 @@
+{
+  "name": "movematetest",
+  "version": "1.0.0",
+  "description": "Movemate Test AngularJS Application by Umair Mahmood Dar",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-animate": "^1.8.2",
+    "angular-aria": "^1.8.2",
+    "angular-messages": "^1.8.2",
+    "angular-sweetalert": "^1.1.2",
+    "angular-material": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umairmahmooddar/MoveMateTest.git"
+  },
+  "author": "Umair Mahmood Dar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umairmahmooddar/MoveMateTest/issues"
+  },
+  "homepage": "https://github.com/umairmahmooddar/MoveMateTest#readme"
+}

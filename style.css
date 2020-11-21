@@ -1,0 +1,136 @@
+
+
+.sign-in-card {
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    margin: auto;
+    transform: translateY(25%);
+    margin-top: -80px;
+    min-height: 600px;
+    
+    
+}
+
+.main-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-image{
+    height: 230px;
+    width: 230px;
+}
+
+
+.input-form{
+    padding-bottom: 10px;
+    margin-left: 32px;
+}
+
+.selector-fields{
+    width: 91% ;
+    height: 35px;
+    padding-left: 5px;
+    border: 2px #54d2db solid ;
+    border-radius: 2px;
+}
+.input-fields{
+    width: 90%;
+    height:  35px;
+    padding-left: 5px;
+    border: 2px #54d2db solid ;
+    border-radius: 2px;
+}
+.input-fields:focus,
+.selector-fields:focus{
+    /* border: 2px #54d2db solid ; */
+    box-shadow: 0 0 0 2px #51cbd446; 
+    outline: 0;
+}
+
+
+h4{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.button3 {padding: 14px 40px;}
+
+.button {
+    background-color: #54d2db;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    
+  }
+
+.button-div{
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 10px
+
+}
+.button:disabled{
+ cursor:not-allowed;
+ background-color: #50c4cc85;
+
+}
+.confirm-button-class:hover,
+.confirm-button-class:hover:focus{
+    box-shadow: 0 0 0 2px #51cbd446; 
+    outline: 0;
+}
+
+.button:hover,
+.button:hover:focus{
+    
+    box-shadow: 0 0 0 2px #51cbd446; 
+    outline: 0;
+}
+.button:hover:disabled{
+    
+    border: 0px black solid;
+    box-shadow: 0 0 0 0px #51cbd446; 
+    outline: 0;
+}
+.button:focus{
+    
+    border: 0px black solid;
+    box-shadow: 0 0 0 0px #51cbd446; 
+    outline: 0;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .sign-in-card  {
+        height: 150px;
+        width: 200px;
+        display: table;
+        margin: auto;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .sign-in-card  {
+        height: 150px;
+        width: 200px;
+        display: table;
+        margin: auto;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+}
+
+
